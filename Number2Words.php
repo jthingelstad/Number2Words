@@ -11,7 +11,7 @@ $wgExtensionCredits['parserhook'][] = array(
         'description' => "Parser function that takes a number and returns the spelled out version.",    // Should be using descriptionmsg instead so that i18n is supported (but this is a simple example).
         'version' => "0.0.1", 
         'author' => "Jamie Thingelstad",
-        'url' => "http://thingelstad.com/foo",
+        'url' => "https://github.com/thingles/Number2Words",
 );
  
 # Define a setup function

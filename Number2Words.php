@@ -3,7 +3,7 @@
 # sudo pear install channel://pear.php.net/Numbers_Words-0.16.2
 # http://pear.php.net/package-info.php?package=Numbers_Words 
 
-include("Numbers/Words.php");
+require_once("Numbers/Words.php");
 
 $wgExtensionCredits['parserhook'][] = array(
         'path' => __FILE__,     // Magic so that svn revision number can be shown
